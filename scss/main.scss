@@ -1,4 +1,5 @@
-@use '_reset';
-@use '_fonts';
-@use '_variables';
-@use '_common';
+@import 'reset';
+@import 'fonts';
+@import 'variables';
+@import 'common';
+@import 'header';

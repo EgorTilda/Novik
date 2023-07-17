@@ -89,7 +89,7 @@ legend {
   font-family: "Gilroy";
   src: url("./../assets/fonts/Gilroy/Gilroy-Bold.eot");
   src: url("./../assets/fonts/Gilroy/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("./../assets/fonts/Gilroy/Gilroy-Bold.woff2") format("woff2"), url("./../assets/fonts/Gilroy/Gilroy-Bold.woff") format("woff"), url("./../assets/fonts/Gilroy/Gilroy-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -100,4 +100,41 @@ legend {
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+}
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 975px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  background-color: #FFF;
+  max-height: 88px;
+}
+.main-menu {
+  padding: 2rem 0;
+  border-bottom: 1px solid #828282;
+  height: 100%;
+}
+.main-menu__row {
+  display: flex;
+}
+.main-menu__item {
+  font-size: 1.125rem;
+  color: #828282;
+  transition: all 0.2s ease-in-out;
+}
+.main-menu__item:not(:last-child) {
+  margin-right: 9.688rem;
+}
+.main-menu__item:hover {
+  color: #070707;
 }

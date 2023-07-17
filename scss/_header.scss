@@ -1,0 +1,27 @@
+.header {
+    background-color: $white;
+    max-height: 88px;
+    &__menu {
+    }
+}
+
+.main-menu {
+    padding: 2rem 0;
+    border-bottom: 1px solid $grey;
+    height: 100%;
+    &__row {
+        display: flex;
+    }
+    &__item {
+        font-size: $textSize;
+        color: $grey;
+        transition: all .2s ease-in-out;
+
+        &:not(:last-child) {
+            margin-right: 9.688rem;
+        }
+        &:hover {
+            color: $accent;
+        }
+    }
+}
